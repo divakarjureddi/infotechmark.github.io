@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+ .navbar-brand
+ {
+    color:rgb(0, 255, 234);
+  
+ }
+ .navbar-brand:hover
+ {
+   color: aliceblue;
+
+ }
+ #navicon
+ {
+  color: white;
+  margin-left: 15px;
+ }
+ #navicon:hover
+ {
+  color: rgb(235, 9, 186);
+ }
+ .btn-outline-success
+ {
+  background-color:red;
+  color: white;
+  
+ }
+ .btn-outline-success:hover
+ {
+  background-color:  greenyellow;
+ }
+ .navbar-toggler-icon
+{
+  background-color: rgb(167, 158, 241);
+}
+.dropdown-menu
+{
+  background-color:plum;
+}
+
+.nav-link
+{
+  margin: 5px;
+}
+.img-fluid
+{
+  height: 600px;
+  width: 1360px;
+}
+ h3
+{
+  background-color: rgb(32, 26, 100);
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top:  20px;
+  padding-bottom: 25px;
+  font-size:xx-large;
+  margin-top: 1px;
+}
+.text-bodsecondaryy
+{
+  color: red;
+  align-items: center;
+}
+.row
+{
+ margin-top: -7px;
+  background-color: black; 
+ display: flex;
+ justify-content: center;
+
+}
+.col
+{
+display: flex;
+justify-content: center;
+
+}
+.card
+{
+  padding-top: 0.5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+}
+#row1-image
+{
+  background-color: black;
+  border:50%;
+  height: 290px;
+}
+ p
+{
+  color: white;
+  margin-top: 20px;
+  font-size:larger;
+  justify-content: center;
+ 
+}
+#btn-inactive
+{
+  display: flex;
+  width:500px;
+  color: white;
+  margin-top: 20px;
+  flex-direction: column;
+  padding-bottom: 12px;
+}
+h6
+{
+  background-color: rgb(80, 141, 233);
+  padding-top: 15px;
+  display: flex;
+  padding-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.text-bodsecondaryy1
+{
+  color:white ;
+}
+.container-fluid
+{
+  margin-top: -15px;
+  margin-bottom: -7px;
+}
+.carousel-small
+{
+  height: 200px;
+}
+.box-carousel
+{
+  height: 300px;
+  background-color: black;  
+}
+.logo
+{
+  height: 70px;
+  width: 70px;
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-text
+{
+ font-size: large;
+}
+h7
+{
+ 
+  background-color: rgb(146, 139, 233);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  
+}
+.footer1
+{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+.footer
+{
+  background-color: darkslategray;
+}
+
+.symbol
+{
+  height: 50px;
+  width: 50px;
+}
+
+</style>
+</head>
+<body>
+
+  <h6><B>
+    <img src="C:\Users\divak\Downloads\symbol-removebg-preview.png"class="symbol">
+     Get 20% offer this month When you try our services!
+    <button type="button" class="btn btn-outline-warning" >Click Here</button>
+  </h6></B>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid bg-black">
+      <img src="C:\Users\divak\Downloads\2023-10-20.jpg" height="60px" width="80px">
+      <a class="navbar-brand" href="#" >INFOTECH MARK</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page"  href="#" id="navicon">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navicon" >ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="navicon" aria-expanded="false">
+              SERVICES
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Website Maintenance</a></li>
+              <li><a class="dropdown-item" href="#">Website Development</a></li>
+              
+              <li><a class="dropdown-item" href="#">Website Redesigning </a></li>
+              <li><a class="dropdown-item" href="#">Digital Marketing </a></li>
+              <li><a class="dropdown-item" href="#">Logo Designing</a></li>
+            </ul>
+            <li class="nav-item">
+              <a class="nav-link" id="navicon" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navicon" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navicon" href="#">CONTACT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="navicon" href="#">CONNECT HERE</a>
+          </li>
+         
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C:\Users\divak\Downloads\CANOES.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\divak\Downloads\CANOES (1).jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\divak\Downloads\CANOES (2).jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<h3><B>
+  What We
+  <medium class="text-bodsecondaryy">Do</medium>
+</h3></B>
+
+<div class="container-fluid text-center">
+  <div class="row ">
+    <div class="col" >
+      <br>
+      <div class="card" style="width: 19rem;">
+        <img src="C:\Users\divak\Downloads\Website-Maintenance.png" class="card-img-top" alt="Website-Maintenance" id="row1-image">
+        <div class="card-body">
+          <h5 class="card-title">WEBSITE DEVELOPMENT</h5>
+          <p class="card-text">We’re India’s Best Web Design and Development Agency. Experience Professional Websites at Affordable Prices with Us</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <br>
+      
+      <div class="card" style="width: 19rem;">
+        <img src="C:\Users\divak\Downloads\Website-Development.png"class="card-img-top" alt="Website-Development" id="row1-image">
+        <div class="card-body">
+          <h5 class="card-title">WEBSITE REDESIGNING</h5>
+          <p class="card-text">Revitalize Your Website and Boost Customer Engagement with  Our Budget-Friendly  Website Redesign Services with us!</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <br>
+      
+      <div class="card" style="width: 18rem;">
+        <img src="  C:\Users\divak\Downloads\Website-Redesign.png" class="card-img-top" alt="Website-redesign" id="row1-image">
+        <div class="card-body">
+          <h5 class="card-title">WEBSITE MAINTENANCE</h5>
+          <p class="card-text"> Don’t Stress Over  Your  Website Maintenance – Let Us  Handle  It While  You Focus on  Your Business and Services! </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+      <div class="col">
+        <br> 
+       <div class="card" style="width: 19rem;">
+         <img src="C:\Users\divak\Downloads\Start Trial.jpg" class="card-img-top" alt="Digital-Marketing" id="row1-image">
+         <div class="card-body">
+           <h5 class="card-title">DIGITAL MARKETING</h5>
+           <p class="card-text">Digital marketing promotes products or services using online platforms to reach and engage with target audiences effectively.</p>
+           <a href="#" class="btn btn-primary">Go somewhere</a>
+         </div>
+       </div>
+      </div>
+    </div>
+</div>
+  <h3><B>
+    Our
+     <medium class="text-bodsecondaryy">Testimonials</medium>
+  </h3></B>
+<div class="container-fluid text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <p class="card-text">Infotech Mark delivered beyond expectations! Their rapid website development service got our site up and running in no time, and the quality is outstanding. Highly recommend  their expertise!" 
+            <br>
+            <br>
+            - Sarah, Small Business Owner</p>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <div class="col">
+        <div class="card" style="width: 21rem;">
+          <div class="card-body">
+            <p class="card-text">"Infotech Mark exceeded expectations! Their rapid development expertise delivered a stunning website promptly. Professional, affordable, and highly recommended for anyone seeking top-notch web solutions."
+              <br>
+              <br>
+               - John, Startup Founde</p>
+            
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <div class="col">
+        <div class="card" style="width: 20rem;">
+          <div class="card-body">
+            <p class="card-text">"Infotech Mark made our website dreams a reality! Incredibly efficient, they crafted a beautiful site in record time. Their team's professionalism and attention to detail were exceptional. Highly recommended!"
+              <br>
+              <br>
+               -Emily, Marketing Manager
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3><B>
+      What You Will Get
+     <medium class="text-bodsecondaryy">On This Package</medium>
+    </h3></B>
+
+   <div class="container-fluid text-center ">
+     <div class="row align-items-start">
+      <div class="col " id="btn-inactive" >
+        <button type="button" class="btn btn-outline-primary" id="btn-inactive">1 Year Free Hosting</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-inactive">1 Year Free Domain</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-inactive">Free SSL Certificate</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-inactive">5-6 Pages</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-inactive">Google Map Integration</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-inactive">Social Media Integration</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-inactive">Whatsapp Button Integration</button>
+        <button type="button" class="btn btn-outline-primary" id="btn-inactive">Overall Cost RS15000</button>
+      </div>
+        <div class="col">
+         <figure class="figure">
+          <img src="C:\Users\divak\Downloads\Package-Thinkwebhub-1024x1024.png" class="figure-img img-fluid rounded" alt="...">
+         </figure>
+        </div>
+    </div>
+  </div>
+    
+
+       <div class="container-fluid text-center" >
+      <div class="row align-items-start" >
+        <div class="col">
+          <div class="card" style="width: 5rem;">
+            <div class="card-body">
+            <img src="C:\Users\divak\Downloads\2023-10-20.jpg" class="logo">
+            </div>
+          </div>
+        </div>
+        <br>
+  
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-text">Infotech Mark
+                <br>
+                <br>
+                "We're your gateway to online success. Reach out and let us elevate your digital footprint. Together, we'll transform your online presence into a thriving asset for your business."</p>
+              
+            </div>
+          </div>
+        </div>
+        <br>
+  
+        <div class="col">
+          <div class="card" style="width: 15rem;">
+            <div class="card-body">
+              <p class="card-text">Pages
+                <br>
+                <br>
+                About Us<br>
+
+                Services<br>
+                
+                Portfolio<br>
+                
+                Contact Us<br>
+              </p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-text">Services
+                <br>
+                <br>
+                Domain & Hosting<br>
+
+                Web Design & Development<br>
+                
+                Web Maintenance<br>
+                
+                Digital Marketing<br>
+              </p>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col">
+          <div class="card" style="width: 15rem;">
+            <div class="card-body">
+              <p class="card-text">Quick Links
+                <br>
+                <br>
+                FAQ<br>
+
+                Support<br>
+                
+                Privacy Policy<br>
+                
+                Terms & Conditions<br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h7><B>
+      © 2024 Infotech Mark. All Rights Reserved.
+    <medium class="text-bodsecondaryy2" >Made with 💛 by Infotech Mark</medium>
+    </h8></B>
+  
+
+</div>
+</body>
+</html>
